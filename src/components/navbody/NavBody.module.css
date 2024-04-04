@@ -1,0 +1,112 @@
+.navBodyContainerMain{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+.navBodyContainer{
+    padding: 2rem;
+}
+.navBodyContainer p{
+ font-weight: 300;
+ font-size: 20px;
+}
+
+.navBodyContainer h1{
+   font-weight: 300;
+   font-size: 50px;
+}
+
+.navBodyContainer article{
+    font-weight: 300;
+    font-size: 15px;
+}
+.navBodyButtoncontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.navBodyicon{
+    background: #BE0101;
+    color: white;
+  padding: 3px;
+  width: 15px;
+  height: 15px;
+}
+.navBodybuttonone{
+    background: #BE0101;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 100px;
+
+}
+.navBodybuttontwo{
+    margin-left: 10px;
+    background: #BE0101;
+    border-radius: 5px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: none;
+
+}
+
+.navBodyimageCont{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 2rem;
+    padding-bottom: 0;
+
+}
+
+.navBodyimageContone{
+    background-size: cover;
+    width: 210px;
+    height: 170px;
+    margin-top: auto;
+   
+}
+.navBodyimageConttwo{
+    background-size: cover;
+    width: 260px;
+    height: 205px;
+    /* min-height: 200px; */
+    margin-top: auto;
+   
+}.navBodyimageContthree{
+    background-size: cover;
+    width: 300px;
+    height: 260px;
+   
+}
+
+.navbodyContInside{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 780px){
+   .navBodyimageCont{
+      display: flex;
+     flex-direction: column;
+   }
+   .navBodyContainer p{
+    font-weight: 300;
+    font-size: 15px;
+   }
+   
+   .navBodyContainer h1{
+      font-weight: 300;
+      font-size: 35px;
+   }
+   
+   .navBodyContainer article{
+       font-weight: 300;
+       font-size: 12px;
+   }
+  
+  }
+
